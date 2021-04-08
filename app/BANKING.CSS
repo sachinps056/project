@@ -1,0 +1,77 @@
+body {
+    text-align: center; 
+    font-family: 'Lato', sans-serif;
+    padding: 1em;
+    line-height: 1.5;
+  }
+  p{
+      color:black;
+  }
+  .flex {
+    background:#00B5EF,#292075;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    border-radius:5px;
+  }
+  .element-center {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+  
+  .typewrite {
+      font-size: 16pt;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+  }
+  
+  h1 {
+      color:#00B5EF;
+      font-size: 3em;
+      margin: 0;
+      margin-top: 0.3em;
+  }
+  
+  #inputs {
+      padding: 10px;
+  }
+  
+  input,
+  
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: palevioletred}
+
+button:active {
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+  input {
+    border: 2px solid #dcdcdc;
+    margin-right: 1em;
+  }
+  
+  
+  
+  label {
+      font-size: 2em;
+  }
+  
+  #btnDeposit, #btnWithdraw {
+      width: 8em;
+  }
